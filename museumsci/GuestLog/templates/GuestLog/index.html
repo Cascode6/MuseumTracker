@@ -1,0 +1,12 @@
+
+<div>
+	<form action="/GuestLog/" method = "post">{% csrf_token %}
+		<h1>Welcome to GuestLog!</h1>
+		<h1><a href="walkform">Walk-in Form</a></h1>
+		
+		<h1><a href="groupform">Group Form</a></h1>
+		<div>
+			<h4> Current date: {{date}}</h4>
+		</div>
+	</form>
+</div>

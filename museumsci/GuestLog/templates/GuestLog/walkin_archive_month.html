@@ -1,0 +1,19 @@
+
+<div>
+    <table>
+        <ul>
+            {% for record in object_list %}
+                <li>{{ record.timestamp|date:"F j, Y" }}: {{ record.Number_of_guests }}</li>
+            {% endfor %}
+        </ul>
+        
+        <p>
+            {% if previous_month %}
+                Previous Month: {{ previous_month|date:"F Y" }}
+            {% endif %}
+            {% if next_month %}
+                Next Month: {{ next_month|date:"F Y" }}
+            {% endif %}
+        </p>
+    </table>
+</div>
