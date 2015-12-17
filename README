@@ -1,0 +1,7 @@
+This is a small app for logging the attendance of guests at the local histor museum I volunteer at. It was built to run on a Raspberry Pi with 7" touchscreen kit attached, to take in two different types of records, and to store them in a mysql db running locally on the pi. The entire project is set to run locally, with later upgrates featuring "export database to csv", emailing csv and visual display to users, and analysis on guests and program success based on the entry fields.
+
+Entry fields for both Walk ins and Group forms were requested by the museum, and are specific to this case. Your mileage may vary. 
+
+More documentation on the setup of the pi, tweaks, etc to come as the beta test product is installed. A complete revamping of the HTML output through the templates is the next project, then a second App will be added to the framework to make calls on the data and actually output relevant graphs, both to specifications provided by the museum.
+
+
